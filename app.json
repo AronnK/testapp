@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "todo-native",
-    "slug": "todo-native",
+    "slug": "updatetrial",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aronnk.todonative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b02c6972-4659-49eb-ad59-424cb69bb8c7"
+      }
+    },
+    "owner": "aronnk",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b02c6972-4659-49eb-ad59-424cb69bb8c7"
     }
   }
 }
